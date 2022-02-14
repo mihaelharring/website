@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.main-content{
+position: relative;
+align-items: center;
+justify-content: center;
+background-color: black;
+height: auto;
+}
+.main-content::before{
+  margin: auto;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.3;
+  background-image: url("images/background.jpeg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.H1 {
+  position: relative;
+  color: firebrick;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.p{
+  position: relative;
+  color: firebrick;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Courier New" "monosapce"; 
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.H2{
+  position: relative;
+  color: firebrick;
+  text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#center {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+table, th, td {
+  position: relative;
+  background-color: firebrick;
+  text-align: center;
+  border: 1px solid;
+  border-color: black;
+  font-size: 20px;
+}
+button{
+  position: relative;
+  
+}
+@media screen and (max-width:600px) {
+  .H1 {
+    position: relative;
+  color: firebrick;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.p{
+  position: relative;
+  color: firebrick;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Courier New" "monosapce";
+  font-size: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.H2{
+  position: relative;
+  color: firebrick;
+  text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+table, th, td {
+  position: relative;
+  background-color: firebrick;
+  text-align: center;
+  border: 1px solid;
+  border-color: black;
+  font-size: 10px;
+}
+button{
+  font-size: 10px;
+  position: relative;
+  border-radius: 50%;
+}
+
+}
+
