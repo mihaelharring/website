@@ -1,16 +1,20 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-
-.main-content{
-position: relative;
-align-items: center;
-justify-content: center;
-background-color: black;
-height: auto;
+.id1{
+  font-size: 15px;
+  color:black;
+  font-weight: bold;
 }
-.main-content::before{
+.main-content {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: auto;
+}
+.main-content::before {
   margin: auto;
   content: "";
   position: absolute;
@@ -20,7 +24,7 @@ height: auto;
   right: 0;
   opacity: 0.3;
   background-image: url("images/background.jpeg");
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -28,7 +32,7 @@ height: auto;
 
 .H1 {
   position: relative;
-  color: firebrick;
+  color: maroon;
   text-align: center;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
@@ -37,20 +41,20 @@ height: auto;
   margin-right: auto;
   width: 50%;
 }
-.p{
+.p {
   position: relative;
-  color: firebrick;
+  color: maroon;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Courier New" "monosapce"; 
+  font-family: "Courier New" "monosapce";
   font-size: 20px;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-.H2{
+.H2 {
   position: relative;
-  color: firebrick;
+  color: maroon;
   text-align: center;
   text-transform: uppercase;
   text-align: center;
@@ -67,66 +71,129 @@ height: auto;
   margin-right: auto;
   width: 50%;
 }
-table, th, td {
+table,
+th,
+td {
   position: relative;
-  background-color: firebrick;
+  background-color: maroon;
   text-align: center;
   border: 1px solid;
   border-color: black;
   font-size: 20px;
 }
-button{
+button {
   position: relative;
-  
 }
-@media screen and (max-width:600px) {
+#f1 {
+  position: relative;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: salmon;
+}
+
+#a1 {
+  position: relative;
+  color: salmon;
+  text-align: center;
+}
+#rules {
+  position: relative;
+  color: maroon;
+  text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+div {
+  position: relative;
+}
+@media screen and (max-width: 600px) {
   .H1 {
     position: relative;
-  color: firebrick;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-.p{
-  position: relative;
-  color: firebrick;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: "Courier New" "monosapce";
-  font-size: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-.H2{
-  position: relative;
-  color: firebrick;
-  text-align: center;
-  text-transform: uppercase;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-table, th, td {
-  position: relative;
-  background-color: firebrick;
-  text-align: center;
-  border: 1px solid;
-  border-color: black;
-  font-size: 10px;
-}
-button{
-  font-size: 10px;
-  position: relative;
-  border-radius: 50%;
-}
+    color: maroon;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .p {
+    position: relative;
+    color: maroon;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Courier New" "monosapce";
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .H2 {
+    position: relative;
+    color: maroon;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  table,
+  th,
+  td {
+    position: relative;
+    background-color: maroon;
+    text-align: center;
+    border: 1px solid;
+    border-color: black;
+    font-size: 10px;
+  }
+  button {
+    font-size: 10px;
+    position: relative;
+    border-radius: 50%;
+  }
+  #f1 {
+    position: relative;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: salmon;
+  }
 
+  #a1 {
+    position: relative;
+    color: salmon;
+    text-align: center;
+  }
+  #rules {
+    position: relative;
+    color: maroon;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  div {
+    position: relative;
+  }
 }
-
