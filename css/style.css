@@ -48,7 +48,7 @@ nav li {
 }
 nav a {
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform:capitalize;
   font-size: 15px;
 }
 nav a:hover {
