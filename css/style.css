@@ -30,6 +30,12 @@ header {
   background-color: darkslategrey;
   position: relative;
 }
+#image{
+  padding: auto;
+  width: 10%;
+  height: 10%;
+  position: relative;
+}
 nav {
   position: relative;
   float: right;
@@ -312,6 +318,12 @@ footer {
     width: 50%;
   }
   div {
+    position: relative;
+  }
+  #image{
+    padding: auto;
+    width: 25%;
+    height: 25%;
     position: relative;
   }
 }
