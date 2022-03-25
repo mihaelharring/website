@@ -30,6 +30,10 @@ header {
   background-color: darkslategrey;
   position: relative;
 }
+.center {
+  margin: 25px 400px;
+padding: 5px;
+}
 #image{
   padding: auto;
   width: 10%;
