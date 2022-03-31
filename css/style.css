@@ -328,6 +328,30 @@ footer {
   margin: 12px 50px;
 padding: 2px;
 }
+  nav {
+  position: relative;
+  float: right;
+}
+nav ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  position: relative;
+  display: inline-block;
+  margin-left: 15px;
+  padding: 10px;
+}
+nav a {
+  text-decoration: none;
+  text-transform:capitalize;
+  font-size: 15px;
+}
+nav a:hover {
+  color: gray;
+}
   #image{
     padding: auto;
     width: 25%;
